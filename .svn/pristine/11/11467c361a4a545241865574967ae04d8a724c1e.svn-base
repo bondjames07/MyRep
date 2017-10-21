@@ -1,0 +1,4 @@
+url=www.google.com
+gmailLink_xpath=//a[text()='Gmail']
+email_id=Email
+nextButton_id=next

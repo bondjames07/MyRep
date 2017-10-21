@@ -1,0 +1,22 @@
+package com.test.core.hybrid;
+
+public class Keywords {
+	
+	
+	public static void main(String args[]){
+		
+		GenericKeywords app = new GenericKeywords();
+		app.openBrowser("Mozilla");
+		app.navigate("http://google.com");
+		app.click("//a[text()='Gmail']");
+		//app.input(locator, data);
+		
+		
+		
+		
+	}
+	
+	
+	
+
+}

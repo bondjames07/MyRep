@@ -1,0 +1,29 @@
+package com.test.core.hybrid.testcases;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class GmailLogin {
+	
+	@Test
+	public void doLogin(){
+		
+		/*
+		System.setProperty("webdriver.chrome.driver", "D:\\QA\\Selenium\\drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.get("http://google.com");
+		driver.findElement(By.xpath("//a[text()='Gmail']")).click();
+		driver.findElement(By.id("Email")).sendKeys("vikas.dhir10");
+		driver.findElement(By.id("next")).click();
+		
+		*/
+	}
+	
+
+}

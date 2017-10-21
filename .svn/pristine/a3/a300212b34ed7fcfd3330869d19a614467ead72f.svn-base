@@ -1,0 +1,22 @@
+package com.test.core.hybrid;
+
+public class Keywords {
+	
+	
+	public static void main(String args[]){
+		
+		System.out.println("Directory is" + System.getProperty("user.dir"));
+		
+		GenericKeywords app = new GenericKeywords();
+		app.openBrowser("Chrome");
+		app.navigate("url");
+		app.click("gmailLink_xpath");
+		app.input("email_id", "vikas.dhir10");
+		app.click("nextButton_id");
+		
+	}
+	
+	
+	
+
+}
